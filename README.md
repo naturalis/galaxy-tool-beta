@@ -22,8 +22,8 @@ sudo git clone https://github.com/naturalis/galaxy-tool-beta
 sudo chmod 777 galaxy-tool-beta/*
 ```
 ```
-sudo ln -s /home/galaxy/Tools/galaxy-tool-alpha/calculate_beta.sh /home/galaxy/galaxy/tools/identify/calculate_beta.sh
-sudo ln -s /home/galaxy/Tools/galaxy-tool-alpha/calculate_beta.xml /home/galaxy/galaxy/tools/identify/calculate_beta.xml
+sudo ln -s /home/galaxy/Tools/galaxy-tool-beta/calculate_beta.sh /home/galaxy/galaxy/tools/identify/calculate_beta.sh
+sudo ln -s /home/galaxy/Tools/galaxy-tool-beta/calculate_beta.xml /home/galaxy/galaxy/tools/identify/calculate_beta.xml
 ```
 Add the following line to /home/galaxy/galaxy/config/tool_conf.xml
 ```
