@@ -1,0 +1,18 @@
+<tool id="calculate_beta" name="calculate beta diversity from otu table">
+<description></description>
+<command interpreter="bash">calculate_beta.sh $input $output</command>
+<inputs>
+<param format=".txt" name="input" type="data" label="otu table"/>
+</inputs>
+<outputs>
+<data format="zip" type="data" name="output" label="$input.display_name beta diversity"/>
+</outputs>
+<tests>
+<test>
+<param name="test_input" value="test_input.txt"/>
+<output name="test_outout" file="test_output.txt"/>
+</test>
+</tests>
+<help>
+</help>
+</tool>
